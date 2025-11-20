@@ -1,4 +1,4 @@
-# React Beginner Tutorial — Topic Cards
+# React Beginner Tutorial — Introducing Me!
 
 This tutorial repo is a small, self-contained exercise for beginners learning React fundamentals: components, state, event handlers, and conditional rendering.
 
@@ -16,8 +16,16 @@ What you'll work with
 - `src/TopicCard.jsx` — the card component (tutorial version). It currently displays static content and contains comments that point where to add state and event handlers.
 - `src/App.css` — styles for the 3×2 square grid and card visuals.
 
+---
+## How to get started
+1. Copy this repo's link: code => clone => copy HTTPS
+2. Go to your VScode and open clone git repository (or use the terminal-- search how to do that! that's the beauty of SWE)
+3. Start your repo
+4. Create a new branch: git checkout -b "your-name"
+5. Start working!
+
 Exercise (step-by-step)
-1. Start the dev server:
+1. Start the dev server from the terminal:
 
 ```powershell
 npm install
@@ -46,4 +54,4 @@ Hints
 - Use `role="button"` and `tabIndex={0}` on the card element to make it keyboard-focusable.
 - Use `aria-pressed={showValue}` to reflect toggle state to assistive tech.
 
-Enjoy building — and ask if you get stuck on any of the steps!
+Enjoy building— and ask if you get stuck on any of the steps!
