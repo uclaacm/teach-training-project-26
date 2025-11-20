@@ -28,6 +28,8 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  /* ADD YOUR BACKGROUND COLOR HERE -- use rgba(209, 190, 255, 1);*/
+  background-color: rgba(146, 214, 161, 0.87);;
 }
 
 h1 {

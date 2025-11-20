@@ -1,3 +1,4 @@
+/*Feel free to customize any styling you like!*/
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -39,4 +40,57 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.topic-grid {
+  display: grid;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+/* Enforce exactly 3 columns and 2 rows (3x2) */
+.topic-grid.three-by-two {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.topic-card {
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 12px;
+  padding: 0.75rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+  cursor: pointer;
+  transition: transform 140ms ease, box-shadow 140ms ease;
+  user-select: none;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+}
+.topic-card:focus {
+  outline: 3px solid #6b8cff66;
+}
+.topic-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+.topic-label {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.topic-value {
+  color: #444;
+  font-size: 0.95rem;
+  min-height: 1.2rem;
+}
+
+.face-img {
+  width: 72%;
+  height: 72%;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.08);
 }
